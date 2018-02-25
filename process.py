@@ -53,6 +53,7 @@ def calibrate_camera(input_image_path,
 
     distortion_mtx = None
     distortion_coeff = None
+    is_example_saved = False
 
     # Step through the list and search for chessboard corners
     for input_file_name in os.listdir(input_image_path):
@@ -88,7 +89,8 @@ def calibrate_camera(input_image_path,
             perspective_transform = get_perspective_transform(image_size, source_px)
             transformed_image = transform_image(input_image, perspective_transform)
 
-            if base_file_name == 'calibration1':
+            if not is_example_saved:
+                is_example_saved = True
                 save_image(input_image, output_image_path, 'input', base_file_name, 'png')
                 save_image(undistorted_image, output_image_path, 'undistorted', base_file_name, 'png')
                 save_image(transformed_image, output_image_path, 'transformed', base_file_name, 'png')
@@ -170,7 +172,7 @@ def dir_threshold(gray_image, sobel_kernel=3, thresh=(0, np.pi / 2)):
     sobel_y_image = cv2.Sobel(gray_image, cv2.CV_64F, 0, 1, ksize=sobel_kernel)
 
     arctan_sobel_image = np.arctan2(np.absolute(sobel_y_image), np.absolute(sobel_x_image))
-    binary_sobel_image = np.zeros_like(arctan_sobel_image)
+    binary_sobel_image = np.zeros_like(arctan_sobel_image, dtype=np.uint8)
     binary_sobel_image[(arctan_sobel_image >= thresh[0]) & (arctan_sobel_image <= thresh[1])] = 1
 
     return binary_sobel_image
@@ -252,7 +254,7 @@ def process_test_images(input_image_path,
         kernel_size = 3
 
         # Apply each of the thresholding functions
-        red_bin_image = rgb_threshold(transformed_image, 'r', thresh=(220, 255))
+        red_bin_image = rgb_threshold(transformed_image, 'r', thresh=(230, 255))
         save_image(red_bin_image, output_image_path, 'red_binary', base_file_name, 'png')
 
         grn_bin_image = rgb_threshold(transformed_image, 'g', thresh=(205, 255))
@@ -261,16 +263,19 @@ def process_test_images(input_image_path,
         blu_bin_image = rgb_threshold(transformed_image, 'b', thresh=(200, 255))
         save_image(grn_bin_image, output_image_path, 'blu_binary', base_file_name, 'png')
 
-        sat_bin_image = hls_threshold(transformed_image, 's', thresh=(100, 255))
+        sat_bin_image = hls_threshold(transformed_image, 's', thresh=(150, 255))
         save_image(sat_bin_image, output_image_path, 'sat_binary', base_file_name, 'png')
 
-        hue_bin_image = hls_threshold(transformed_image, 'h', thresh=(15, 100))
+        lgt_bin_image = hls_threshold(transformed_image, 's', thresh=(150, 255))
+        save_image(lgt_bin_image, output_image_path, 'lgt_binary', base_file_name, 'png')
+
+        hue_bin_image = hls_threshold(transformed_image, 'h', thresh=(20, 40))
         save_image(hue_bin_image, output_image_path, 'hue_binary', base_file_name, 'png')
 
-        x_bin_image = abs_sobel_thresh(gray_image, orient='x', sobel_kernel=kernel_size, thresh=(22, 124))
+        x_bin_image = abs_sobel_thresh(gray_image, orient='x', sobel_kernel=kernel_size, thresh=(20, 120))
         save_image(x_bin_image, output_image_path, 'x_binary', base_file_name, 'png')
 
-        y_bin_image = abs_sobel_thresh(gray_image, orient='y', sobel_kernel=kernel_size, thresh=(22, 124))
+        y_bin_image = abs_sobel_thresh(gray_image, orient='y', sobel_kernel=kernel_size, thresh=(20, 120))
         save_image(y_bin_image, output_image_path, 'y_binary', base_file_name, 'png')
 
         mag_bin_image = mag_thresh(gray_image, sobel_kernel=kernel_size, mag_thresh=(20, 200))
@@ -281,16 +286,10 @@ def process_test_images(input_image_path,
 
         combined_bin_image = np.zeros_like(dir_bin_image)
         combined_bin_image[
-            (((red_bin_image == 1)
-              | (grn_bin_image == 1)
-              | (blu_bin_image == 1)
-              | (hue_bin_image == 1)
-              | (sat_bin_image == 1))
-             & ((x_bin_image == 1)
-                | (y_bin_image == 1)
-                | (mag_bin_image == 1)
-                | (dir_bin_image == 1)))] = 1
-        # | ((mag_bin_image == 1) & (dir_bin_image == 1))] = 1
+            np.sum([red_bin_image, grn_bin_image, blu_bin_image,
+                    sat_bin_image, hue_bin_image, lgt_bin_image,
+                    x_bin_image & y_bin_image,
+                    mag_bin_image & dir_bin_image], axis=0) > 2] = 1
         save_image(combined_bin_image, output_image_path, 'combined_binary', base_file_name, 'png')
 
 
