@@ -2,16 +2,294 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdf705aa-9487-47b4-a31f-03a109299128" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_combined_binary.png" afterPath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_combined_binary.png" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_combined_binary.png" afterPath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_combined_binary.png" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_combined_binary.png" afterPath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_combined_binary.png" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_combined_binary.png" afterPath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_combined_binary.png" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_combined_binary.png" afterPath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_combined_binary.png" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/straight_lines1_combined_binary.png" afterPath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/straight_lines1_combined_binary.png" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/straight_lines2_combined_binary.png" afterPath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/straight_lines2_combined_binary.png" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test1_combined_binary.png" afterPath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test1_combined_binary.png" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test2_combined_binary.png" afterPath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test2_combined_binary.png" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test3_combined_binary.png" afterPath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test3_combined_binary.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration17.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration18.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration19.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration20.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/camera_cal/calibration9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/challenge_video.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/harder_challenge_video.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process.py" afterPath="$PROJECT_DIR$/process.py" />
+      <change beforePath="$PROJECT_DIR$/process_output/calibration/by_name/calibration10/calibration10_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/calibration/by_name/calibration10/calibration10_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/calibration/by_name/calibration10/calibration10_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/calibration/by_type/input/calibration10_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/calibration/by_type/transformed/calibration10_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/calibration/by_type/undistorted/calibration10_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/straight_lines1_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/straight_lines2_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/test1_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/test2_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/test3_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/test4_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/test5_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/test6_blu_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/straight_lines1_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/straight_lines2_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test1_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test2_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test3_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test4_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test5_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test6_combined_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/straight_lines1_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/straight_lines2_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/test1_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/test2_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/test3_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/test4_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/test5_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/test6_dir_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/straight_lines1_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/straight_lines2_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/test1_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/test2_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/test3_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/test4_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/test5_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/test6_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/straight_lines1_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/straight_lines2_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/test1_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/test2_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/test3_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/test4_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/test5_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/test6_grn_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/straight_lines1_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/straight_lines2_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/test1_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/test2_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/test3_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/test4_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/test5_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/test6_hue_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/straight_lines1_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/straight_lines2_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/test1_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/test2_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/test3_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/test4_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/test5_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/test6_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/straight_lines1_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/straight_lines2_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/test1_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/test2_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/test3_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/test4_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/test5_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/test6_lgt_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/straight_lines1_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/straight_lines2_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/test1_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/test2_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/test3_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/test4_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/test5_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/test6_mag_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/straight_lines1_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/straight_lines2_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/test1_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/test2_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/test3_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/test4_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/test5_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/test6_red_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/straight_lines1_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/straight_lines2_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/test1_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/test2_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/test3_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/test4_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/test5_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/test6_sat_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/straight_lines1_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/straight_lines2_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/test1_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/test2_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/test3_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/test4_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/test5_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/test6_sharpened.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/straight_lines1_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/straight_lines2_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/test1_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/test2_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/test3_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/test4_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/test5_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/test6_transformed.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/straight_lines1_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/straight_lines2_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/test1_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/test2_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/test3_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/test4_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/test5_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/test6_undistorted.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/straight_lines1_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/straight_lines2_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/test1_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/test2_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/test3_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/test4_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/test5_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/test6_x_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/straight_lines1_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/straight_lines2_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/test1_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/test2_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/test3_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/test4_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/test5_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/test6_y_binary.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/project_video.mp4" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,20 +301,20 @@
   <component name="CheckStyle-IDEA-workspace">
     <option name="configuration">
       <map>
-        <entry key="last-active-plugin-version" value="5.18.0" />
+        <entry key="last-active-plugin-version" value="5.18.1" />
       </map>
     </option>
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CarND_Advanced_Lane_Lines$process.coverage" NAME="process Coverage Results" MODIFIED="1519533859843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CarND_Advanced_Lane_Lines$process.coverage" NAME="process Coverage Results" MODIFIED="1519608696942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="process.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="291" column="68" lean-forward="true" selection-start-line="291" selection-start-column="68" selection-end-line="291" selection-end-column="68" />
+            <state relative-caret-position="-1139">
+              <caret line="669" column="25" lean-forward="true" selection-start-line="669" selection-start-column="25" selection-end-line="669" selection-end-column="25" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -44,10 +322,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="polynomial.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Tools/Anaconda3/envs/bc-project-gpu-1/Lib/site-packages/numpy/lib/polynomial.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="558" column="0" lean-forward="false" selection-start-line="558" selection-start-column="0" selection-end-line="558" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoClip.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Tools/Anaconda3/envs/bc-project-gpu-1/Lib/site-packages/moviepy/video/VideoClip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="540" column="36" lean-forward="false" selection-start-line="540" selection-start-column="36" selection-end-line="540" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pyplot.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Tools/Anaconda3/envs/bc-project-gpu-1/Lib/site-packages/matplotlib/pyplot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="429" column="44" lean-forward="false" selection-start-line="429" selection-start-column="44" selection-end-line="429" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="image.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Tools/Anaconda3/envs/bc-project-gpu-1/Lib/site-packages/matplotlib/image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="9980">
               <caret line="528" column="0" lean-forward="false" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
               <folding />
             </state>
@@ -58,7 +366,7 @@
         <entry file="file://$USER_HOME$/.IntelliJIdea2017.3/system/python_stubs/-414421911/cv2/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
-              <caret line="2541" column="81" lean-forward="false" selection-start-line="2541" selection-start-column="81" selection-end-line="2541" selection-end-column="81" />
+              <caret line="2377" column="4" lean-forward="false" selection-start-line="2377" selection-start-column="4" selection-end-line="2377" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -82,10 +390,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>undistorted_image.shape[0]</find>
-      <find>combined</find>
-      <find>&quot;</find>
-      <find>abs_sobel_thresh</find>
       <find>x_</find>
       <find>red</find>
       <find>b</find>
@@ -97,6 +401,25 @@
       <find>+</find>
       <find>flo</find>
       <find>uint8</find>
+      <find>base_file_name</find>
+      <find>type_path</find>
+      <find>type</find>
+      <find>get_perspective_transform</find>
+      <find>transform_street_image</find>
+      <find>filter_street_image</find>
+      <find>test_video_path \= \'\.\/test_videos\'\n</find>
+      <find>test</find>
+      <find>figure</find>
+      <find>canvas.to</find>
+      <find>plt.figure</find>
+      <find>build_fit_vide</find>
+      <find>fillPoly</find>
+      <find>get_curve_pixels</find>
+      <find>get_lr_curve_pixels</find>
+      <find>y_meters_per_px</find>
+      <find>get_curve_radius_in_m</find>
+      <find>Position</find>
+      <find>curr_video_output_path</find>
     </findStrings>
     <replaceStrings>
       <replace>image_size[1]</replace>
@@ -108,9 +431,12 @@
       <replace>blu</replace>
       <replace>sat</replace>
       <replace>hue</replace>
-      <replace>name</replace>
       <replace>'png'</replace>
       <replace>,</replace>
+      <replace>save_file_name</replace>
+      <replace>name_path</replace>
+      <replace>name</replace>
+      <replace>challenge</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -164,9 +490,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -177,90 +500,15 @@
             </path>
             <path>
               <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarND-Advanced-Lane-Lines" type="462c0819:PsiDirectoryNode" />
-              <item name="test_images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CarND-Advanced-Lane-Lines" type="462c0819:PsiDirectoryNode" />
-              <item name="process.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (CarND-Advanced-Lane-Lines) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (CarND-Advanced-Lane-Lines) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="bc-project-gpu-1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (CarND-Advanced-Lane-Lines) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="-414421911" type="70582d5e:PySkeletonsNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (CarND-Advanced-Lane-Lines) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="-414421911" type="70582d5e:PySkeletonsNode" />
-              <item name="cv2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (CarND-Advanced-Lane-Lines) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="-414421911" type="70582d5e:PySkeletonsNode" />
-              <item name="cv2" type="462c0819:PsiDirectoryNode" />
-              <item name="__init__.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (CarND-Advanced-Lane-Lines) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="Lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (CarND-Advanced-Lane-Lines) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (CarND-Advanced-Lane-Lines) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="matplotlib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (CarND-Advanced-Lane-Lines) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="matplotlib" type="462c0819:PsiDirectoryNode" />
-              <item name="image.py" type="8704e2dd:PyFileNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.5 (CarND-Advanced-Lane-Lines) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="matplotlib" type="462c0819:PsiDirectoryNode" />
-              <item name="image.py" type="8704e2dd:PyFileNode" />
-              <item name="_ImageBase" type="dd8bbb05:PyElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,19 +689,20 @@
       <workItem from="1519245771156" duration="1780000" />
       <workItem from="1519488773538" duration="2093000" />
       <workItem from="1519491528552" duration="542000" />
-      <workItem from="1519492092694" duration="22652000" />
+      <workItem from="1519492092694" duration="24763000" />
+      <workItem from="1519584388751" duration="24173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33397000" />
+    <option name="totallyTimeSpent" value="59681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -469,10 +718,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889125" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39502165" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3430736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15031983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -499,38 +748,16 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/undistort_output.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/warped_straight_lines.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_files/writeup_template.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old_files/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -572,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,7 +817,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -602,7 +827,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -644,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +881,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -674,7 +896,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -771,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +1000,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -791,7 +1010,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -829,26 +1047,50 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea2017.3/system/python_stubs/-414421911/cv2/__init__.py">
+    <entry file="file://C:/Tools/Anaconda3/envs/bc-project-gpu-1/Lib/site-packages/matplotlib/image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="2541" column="81" lean-forward="false" selection-start-line="2541" selection-start-column="81" selection-end-line="2541" selection-end-column="81" />
+        <state relative-caret-position="9980">
+          <caret line="528" column="0" lean-forward="false" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Tools/Anaconda3/envs/bc-project-gpu-1/Lib/site-packages/matplotlib/image.py">
+    <entry file="file://$USER_HOME$/.IntelliJIdea2017.3/system/python_stubs/-414421911/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="528" column="0" lean-forward="false" selection-start-line="528" selection-start-column="0" selection-end-line="528" selection-end-column="0" />
+        <state relative-caret-position="291">
+          <caret line="2377" column="4" lean-forward="false" selection-start-line="2377" selection-start-column="4" selection-end-line="2377" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Tools/Anaconda3/envs/bc-project-gpu-1/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="429" column="44" lean-forward="false" selection-start-line="429" selection-start-column="44" selection-end-line="429" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Tools/Anaconda3/envs/bc-project-gpu-1/Lib/site-packages/moviepy/video/VideoClip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="540" column="36" lean-forward="false" selection-start-line="540" selection-start-column="36" selection-end-line="540" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Tools/Anaconda3/envs/bc-project-gpu-1/Lib/site-packages/numpy/lib/polynomial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="558" column="0" lean-forward="false" selection-start-line="558" selection-start-column="0" selection-end-line="558" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="291" column="68" lean-forward="true" selection-start-line="291" selection-start-column="68" selection-end-line="291" selection-end-column="68" />
+        <state relative-caret-position="-1139">
+          <caret line="669" column="25" lean-forward="true" selection-start-line="669" selection-start-column="25" selection-end-line="669" selection-end-column="25" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
