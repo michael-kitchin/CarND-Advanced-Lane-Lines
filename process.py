@@ -35,6 +35,8 @@ parser.add_argument('--process-test-images', type=bool, default=True)
 parser.add_argument('--process-test-videos', type=bool, default=True)
 parser.add_argument('--process-challenge-videos', type=bool, default=True)
 parser.add_argument('--filter-sobel-kernel-size', type=int, default=11)
+parser.add_argument('--line-average-frames', type=int, default=10)
+parser.add_argument('--line-average-prune', type=int, default=100)
 
 args = parser.parse_args()
 print("Args: {}".format(args))
@@ -59,6 +61,8 @@ process_test_images = args.process_test_images
 process_test_videos = args.process_test_videos
 process_challenge_videos = args.process_challenge_videos
 filter_sobel_kernel_size = args.filter_sobel_kernel_size
+line_average_frames = args.line_average_frames
+line_average_prune = args.line_average_prune
 
 calibration_image_output_path = '{}/calibration_images'.format(process_output_path)
 test_image_output_path = '{}/test_images'.format(process_output_path)
@@ -84,7 +88,9 @@ curr_right_line_mean = None
 # Simple class for maintaining running averages
 # of numpy arrays
 class RunningMean:
-    def __init__(self, max_size=10, max_prunes=100):
+    def __init__(self,
+                 max_size=line_average_frames,
+                 max_prunes=line_average_prune):
         """Basic ctor"""
         self.max_size = max_size
         self.max_prunes = max_prunes
@@ -763,21 +769,44 @@ def process_video_frame(input_image):
 
     if curr_left_fit is None or curr_right_fit is None \
             or curr_video_frame_ctr % video_frame_fit_interval == 0:
-        curr_left_fit, curr_right_fit, fit_image = \
+        next_left_fit, next_right_fit, fit_image = \
             fit_lane_lines(combined_bin_image,
                            save_file_path='{}/fit'.format(output_image_path),
                            save_file_name=base_file_name)
     else:
-        curr_left_fit, curr_right_fit, fit_image = \
+        next_left_fit, next_right_fit, fit_image = \
             refit_lane_lines(combined_bin_image,
                              curr_left_fit,
                              curr_right_fit,
                              save_file_path='{}/fit'.format(output_image_path),
                              save_file_name=base_file_name)
 
-    # Overplot
+    # Build lines
     left_fitx_line, right_fitx_line, ploty_axis = \
-        get_lr_curve_pixels(curr_left_fit, curr_right_fit, transformed_image)
+        get_lr_curve_pixels(next_left_fit, next_right_fit, transformed_image)
+
+    # Check for messed up lines & selectively fall back
+    # (wide variety of checks possible)
+    midx_px = (transformed_image.shape[1] / 2)
+    is_fit_good = True
+    if not curr_left_fit is None and \
+            np.max(left_fitx_line) > midx_px:
+        print('Bad left curve fit (reverting; frame={}, fit={}).'
+              .format(curr_video_frame_ctr, next_left_fit))
+        next_left_fit = curr_left_fit
+        is_fit_good = False
+    if not curr_right_fit is None and \
+            np.min(right_fitx_line) < midx_px:
+        print('Bad right curve fit (reverting; frame={}, fit={}).'
+              .format(curr_video_frame_ctr, next_right_fit))
+        next_right_fit = curr_right_fit
+        is_fit_good = False
+    if not is_fit_good:
+        left_fitx_line, right_fitx_line, ploty_axis = \
+            get_lr_curve_pixels(next_left_fit, next_right_fit, transformed_image)
+
+    curr_left_fit = next_left_fit
+    curr_right_fit = next_right_fit
 
     left_fitx_line = curr_left_line_mean.update_mean(left_fitx_line)
     right_fitx_line = curr_right_line_mean.update_mean(right_fitx_line)
