@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdf705aa-9487-47b4-a31f-03a109299128" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_name/000000/000000_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_name/000000/000000_output.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_name/000040/000040_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_name/000040/000040_output.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_type/input/000000_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_type/input/000040_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_type/output/000000_output.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_type/output/000040_output.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/process.py" afterPath="$PROJECT_DIR$/process.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,14 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="process.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="process.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="120">
+              <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,9 +142,9 @@
       <find>get_curve_pixels</find>
       <find>get_lr_curve_pixels</find>
       <find>y_meters_per_px</find>
-      <find>get_curve_radius_in_m</find>
       <find>Position</find>
       <find>curr_video_output_path</find>
+      <find>get_curve_radius_in_m</find>
     </findStrings>
     <replaceStrings>
       <replace>image_size[1]</replace>
@@ -178,6 +182,7 @@
       <list>
         <option value="$PROJECT_DIR$/examples/example.ipynb" />
         <option value="$PROJECT_DIR$/process.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -407,12 +412,12 @@
       <workItem from="1519488773538" duration="2093000" />
       <workItem from="1519491528552" duration="542000" />
       <workItem from="1519492092694" duration="24763000" />
-      <workItem from="1519584388751" duration="24268000" />
+      <workItem from="1519584388751" duration="27565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59776000" />
+    <option name="totallyTimeSpent" value="63073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -470,16 +475,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/old_files/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/example.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -806,11 +801,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="120">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

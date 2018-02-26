@@ -24,8 +24,13 @@ challenge_video_output_path = '{}/challenge_videos'.format(output_dir_name)
 distortion_mtx = None
 distortion_coeff = None
 default_offset_px = 200
+
 # [dst_ul, dst_ur, dst_ll, dst_lr]
+# Longer view (straighter roads)
 default_source_px_multipliers = [[45.31, 63.61], [55.00, 63.61], [20.86, 91.81], [81.41, 91.81]]
+# Shorter view (curvier roads)
+# default_source_px_multipliers = [[42.58, 66.39], [57.97, 66.39], [20.86, 91.81], [81.41, 91.81]]
+
 prev_to_transform = None
 prev_from_transform = None
 y_meters_per_px = 30.0 / 720.0
@@ -174,7 +179,6 @@ def process_camera_calibration(input_image_path,
 
     distortion_mtx = None
     distortion_coeff = None
-    is_example_saved = False
 
     # Step through the list and search for chessboard corners
     for input_file_name in os.listdir(input_image_path):
@@ -210,11 +214,9 @@ def process_camera_calibration(input_image_path,
             to_transform, from_transform = get_perspective_transform(image_size, source_px)
             transformed_image = transform_image(input_image, to_transform)
 
-            if not is_example_saved:
-                is_example_saved = True
-                save_image(input_image, output_image_path, 'input', base_file_name, 'png')
-                save_image(undistorted_image, output_image_path, 'undistorted', base_file_name, 'png')
-                save_image(transformed_image, output_image_path, 'transformed', base_file_name, 'png')
+            save_image(input_image, output_image_path, 'input', base_file_name, 'png')
+            save_image(undistorted_image, output_image_path, 'undistorted', base_file_name, 'png')
+            save_image(transformed_image, output_image_path, 'transformed', base_file_name, 'png')
 
 
 def get_curve_pixels(poly_fit, plot_axis):
@@ -229,8 +231,7 @@ def get_lr_curve_pixels(left_fit, right_fit, input_image):
     return left_fitx_line, right_fitx_line, ploty_axis
 
 
-def get_curve_radius_in_m(poly_fit, plot_axis, meters_per_px):
-    fit_pixels = get_curve_pixels(poly_fit, plot_axis)
+def get_curve_radius_in_m(fit_pixels, plot_axis, meters_per_px):
     fit_scaled = np.polyfit(plot_axis * meters_per_px[0], fit_pixels * meters_per_px[1], 2)
     output_radius = ((1 + (2 * fit_scaled[0] * np.max(plot_axis) * meters_per_px[0] + fit_scaled[1]) ** 2) ** 1.5) \
                     / np.absolute(2 * fit_scaled[0])
@@ -735,9 +736,9 @@ def process_video_frame(input_image):
                                                                  ('left' if center_diff < 0.0 else 'right')),
                 (30, 40), cv2.FONT_HERSHEY_DUPLEX, 1, (255, 255, 255), 2)
 
-    left_radius_in_m = get_curve_radius_in_m(prev_left_fit, ploty_axis,
+    left_radius_in_m = get_curve_radius_in_m(left_fitx_line, ploty_axis,
                                              (y_meters_per_px, x_meters_per_px))
-    right_radius_in_m = get_curve_radius_in_m(prev_right_fit, ploty_axis,
+    right_radius_in_m = get_curve_radius_in_m(right_fitx_line, ploty_axis,
                                               (y_meters_per_px, x_meters_per_px))
     cv2.putText(output_image,
                 'Curvature: {: >4.2f}m (left), {: >4.2f}m (right)'.format(left_radius_in_m, right_radius_in_m),
