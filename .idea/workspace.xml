@@ -2,294 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdf705aa-9487-47b4-a31f-03a109299128" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
+      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_name/000000/000000_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_name/000000/000000_output.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_name/000040/000040_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_name/000040/000040_output.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_type/input/000000_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_type/input/000040_input.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_type/output/000000_output.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/('process_output/test_videos/output',)/by_type/output/000040_output.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration10.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration11.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration12.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration13.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration14.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration15.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration16.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration17.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration18.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration19.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration20.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/camera_cal/calibration9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/challenge_video.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/harder_challenge_video.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process.py" afterPath="$PROJECT_DIR$/process.py" />
-      <change beforePath="$PROJECT_DIR$/process_output/calibration/by_name/calibration10/calibration10_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/calibration/by_name/calibration10/calibration10_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/calibration/by_name/calibration10/calibration10_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/calibration/by_type/input/calibration10_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/calibration/by_type/transformed/calibration10_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/calibration/by_type/undistorted/calibration10_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines1/straight_lines1_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/straight_lines2/straight_lines2_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test1/test1_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test2/test2_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test3/test3_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test4/test4_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test5/test5_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_name/test6/test6_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/straight_lines1_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/straight_lines2_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/test1_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/test2_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/test3_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/test4_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/test5_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/blu_binary/test6_blu_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/straight_lines1_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/straight_lines2_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test1_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test2_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test3_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test4_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test5_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/combined_binary/test6_combined_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/straight_lines1_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/straight_lines2_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/test1_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/test2_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/test3_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/test4_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/test5_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/dir_binary/test6_dir_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/straight_lines1_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/straight_lines2_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/test1_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/test2_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/test3_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/test4_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/test5_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/gray/test6_gray.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/straight_lines1_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/straight_lines2_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/test1_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/test2_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/test3_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/test4_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/test5_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/grn_binary/test6_grn_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/straight_lines1_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/straight_lines2_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/test1_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/test2_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/test3_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/test4_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/test5_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/hue_binary/test6_hue_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/straight_lines1_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/straight_lines2_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/test1_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/test2_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/test3_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/test4_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/test5_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/input/test6_input.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/straight_lines1_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/straight_lines2_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/test1_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/test2_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/test3_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/test4_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/test5_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/lgt_binary/test6_lgt_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/straight_lines1_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/straight_lines2_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/test1_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/test2_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/test3_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/test4_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/test5_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/mag_binary/test6_mag_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/straight_lines1_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/straight_lines2_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/test1_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/test2_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/test3_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/test4_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/test5_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/red_binary/test6_red_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/straight_lines1_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/straight_lines2_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/test1_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/test2_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/test3_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/test4_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/test5_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sat_binary/test6_sat_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/straight_lines1_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/straight_lines2_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/test1_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/test2_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/test3_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/test4_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/test5_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/sharpened/test6_sharpened.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/straight_lines1_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/straight_lines2_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/test1_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/test2_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/test3_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/test4_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/test5_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/transformed/test6_transformed.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/straight_lines1_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/straight_lines2_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/test1_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/test2_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/test3_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/test4_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/test5_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/undistorted/test6_undistorted.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/straight_lines1_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/straight_lines2_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/test1_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/test2_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/test3_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/test4_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/test5_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/x_binary/test6_x_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/straight_lines1_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/straight_lines2_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/test1_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/test2_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/test3_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/test4_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/test5_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/process_output/test/by_type/y_binary/test6_y_binary.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project_video.mp4" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -313,8 +34,8 @@
       <file leaf-file-name="process.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/process.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1139">
-              <caret line="669" column="25" lean-forward="true" selection-start-line="669" selection-start-column="25" selection-end-line="669" selection-end-column="25" />
+            <state relative-caret-position="191">
+              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="42" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -497,10 +218,6 @@
             <path>
               <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
               <item name="CarND-Advanced-Lane-Lines" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CarND-Advanced-Lane-Lines" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -690,12 +407,12 @@
       <workItem from="1519488773538" duration="2093000" />
       <workItem from="1519491528552" duration="542000" />
       <workItem from="1519492092694" duration="24763000" />
-      <workItem from="1519584388751" duration="24173000" />
+      <workItem from="1519584388751" duration="24268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59681000" />
+    <option name="totallyTimeSpent" value="59776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -718,9 +435,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889125" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="0" y="0" width="434" height="856" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3430736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3430736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15191898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1089,8 +806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/process.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1139">
-          <caret line="669" column="25" lean-forward="true" selection-start-line="669" selection-start-column="25" selection-end-line="669" selection-end-column="25" />
+        <state relative-caret-position="191">
+          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="42" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

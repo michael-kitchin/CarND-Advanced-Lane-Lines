@@ -1,0 +1,10 @@
+data
+.ipynb_checkpoints
+*.swp
+*.p
+lenet.*
+*.zip
+.idea/*
+*.iml
+process_output/test_videos/**.png
+process_output/challenge_videos/**.png
