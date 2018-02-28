@@ -70,6 +70,8 @@ Project was developed using the following environment:
 [fr400_output]: media/project_video_000400_output.png
 [fr400_filtered]: media/frame_400_filtered.png
 
+[image_filter_matrix]: media/image_filter_matrix_1.png
+
 ### Execution
 
 Implementation is within the [process_py](process.py) script, automating all project capabilities.
@@ -196,24 +198,31 @@ Camera calibration is provided by the `process_camera_calibration` function, as 
 Example follow (calibration image #10). This example is particularly interesting due to circular artifacts generated in the un-distorted image as a by-product of radial correction.
 
 Input:
+
 ![cal10_input]
 
 Un-distorted:
+
 ![cal10_undistorted]
 
 Transformed:
+
 ![cal10_transformed]
 
 All images, input:
+
 ![all_input]
 
 All images, un-distorted:
+
 ![all_undistorted]
 
 All images, transformed:
+
 ![all_transformed]
 
 Calibration image #1 was unusuable, probably due to its outer edges being clipped as shown:
+
 ![cal1_input]
 
 ---
@@ -229,9 +238,11 @@ _Distortion correction that was calculated via camera calibration has been corre
 Calibration coefficients/matrices produced by `process_camera_calibration` are applied to image frames in the `filter_street_image` function, delegated to by `process_video_frame`.
 
 Straight lines image #1 (input):
+
 ![straight1_input]
 
 Straight lines image #1 (un-distorted):
+
 ![straight1_undistorted]
   
 
@@ -240,15 +251,19 @@ Straight lines image #1 (un-distorted):
 _A method or combination of methods (i.e., color transforms, gradients) has been used to create a binary image containing likely lane pixels. There is no "ground truth" here, just visual verification that the pixels identified as part of the lane lines are, in fact, part of the lines. Example binary images should be included in the writeup (or saved to a folder) and submitted with the project._
 
 Straight lines image #1 (filtered):
+
 ![straight1_filtered]
 
 Test image #1 (filtered):
+
 ![test1_filtered]
 
 Test image #4 (filtered):
+
 ![test4_filtered]
 
 Test image #5 (filtered):
+
 ![test5_filtered]
 
 #### 3.3 Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image (...).
@@ -256,37 +271,51 @@ Test image #5 (filtered):
 _OpenCV function or other method has been used to correctly rectify each image to a "birds-eye view". Transformed images should be included in the writeup (or saved to a folder) and submitted with the project._
 
 Straight lines image #1 (sharpened):
+
 ![straight1_sharpened]
 
 Straight lines image #1 (transformed):
+
 ![straight1_transformed]
 
 #### 3.4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial.
 
 _Methods have been used to identify lane line pixels in the rectified binary image. The left and right line have been identified and fit with a curved functional form (e.g., spine or polynomial). Example images with line pixels identified and a fit overplotted should be included in the writeup (or saved to a folder) and submitted with the project._
 
+Image filter matrix:
+
+![image_filter_matrix]
+
 Straight lines image #1 (input):
+
 ![straight1_input]
 
 Straight lines image #1 (output):
+
 ![straight1_output]
 
 Test image #1 (input):
+
 ![test1_input]
 
 Test image #1 (output):
+
 ![test1_output]
 
 Test image #4 (input):
+
 ![test4_input]
 
 Test image #4 (output):
+
 ![test4_output]
 
 Test image #5 (input):
+
 ![test5_input]
 
 Test image #5 (output):
+
 ![test5_output]
 
 #### 3.5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
@@ -298,6 +327,7 @@ _Here the idea is to take the measurements of where the lane lines are and estim
 _The fit from the rectified image has been warped back onto the original image and plotted to identify the lane boundaries. This should demonstrate that the lane boundaries were correctly identified. An example image with lanes, curvature, and position from center should be included in the writeup (or saved to a folder) and submitted with the project._
 
 Project video frame #400 (result):
+
 ![fr440_result]
 
 ---
