@@ -49,13 +49,13 @@ Project was developed using the following environment:
 [straight1_transformed]: process_output/test_images/filter/by_name/straight_lines1/straight_lines1_transformed.png
 [straight1_filtered]: media/straight1_filtered.png
 [straight1_output]: process_output/test_images/fit/by_name/straight_lines1/straight_lines1_output.png 
-[test1_input]: process_output/test_images/fit/by_name/test1/test1_input.png 
+[test1_input]: process_output/test_images/filter/by_name/test1/test1_input.png 
 [test1_filtered]: media/test1_filtered.png
 [test1_output]: process_output/test_images/fit/by_name/test1/test1_output.png 
-[test4_input]: process_output/test_images/fit/by_name/test4/test4_input.png 
+[test4_input]: process_output/test_images/filter/by_name/test4/test4_input.png 
 [test4_filtered]: media/test4_filtered.png
 [test4_output]: process_output/test_images/fit/by_name/test4/test4_output.png 
-[test5_input]: process_output/test_images/fit/by_name/test5/test5_input.png 
+[test5_input]: process_output/test_images/filter/by_name/test5/test5_input.png 
 [test5_filtered]: media/test5_filtered.png
 [test5_output]: process_output/test_images/fit/by_name/test5/test5_output.png 
 
