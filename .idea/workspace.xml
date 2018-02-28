@@ -31,8 +31,8 @@
               <entry file="file://$PROJECT_DIR$/README.md">
                 <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                   <state split_layout="SPLIT">
-                    <first_editor relative-caret-position="280">
-                      <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                    <first_editor relative-caret-position="360">
+                      <caret line="258" column="0" lean-forward="true" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
                       <folding />
                     </first_editor>
                     <second_editor />
@@ -383,12 +383,12 @@
       <workItem from="1519492092694" duration="24763000" />
       <workItem from="1519584388751" duration="31232000" />
       <workItem from="1519657925514" duration="9588000" />
-      <workItem from="1519826751664" duration="9130000" />
+      <workItem from="1519826751664" duration="9192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85458000" />
+    <option name="totallyTimeSpent" value="85520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -750,8 +750,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="280">
-            <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <first_editor relative-caret-position="360">
+            <caret line="258" column="0" lean-forward="true" selection-start-line="258" selection-start-column="0" selection-end-line="258" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

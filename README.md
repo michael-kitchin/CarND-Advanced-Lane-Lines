@@ -253,6 +253,10 @@ Straight lines image #1 (un-distorted):
 
 _A method or combination of methods (i.e., color transforms, gradients) has been used to create a binary image containing likely lane pixels. There is no "ground truth" here, just visual verification that the pixels identified as part of the lane lines are, in fact, part of the lines. Example binary images should be included in the writeup (or saved to a folder) and submitted with the project._
 
+Image filter matrix:
+
+![image_filter_matrix]
+
 Straight lines image #1 (filtered):
 
 ![straight1_filtered]
@@ -284,10 +288,6 @@ Straight lines image #1 (transformed):
 #### 3.4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial.
 
 _Methods have been used to identify lane line pixels in the rectified binary image. The left and right line have been identified and fit with a curved functional form (e.g., spine or polynomial). Example images with line pixels identified and a fit overplotted should be included in the writeup (or saved to a folder) and submitted with the project._
-
-Image filter matrix:
-
-![image_filter_matrix]
 
 Straight lines image #1 (input):
 
