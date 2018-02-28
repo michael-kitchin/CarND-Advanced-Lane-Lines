@@ -87,7 +87,7 @@ Camera calibration is automated by the `process_camera_calibration` function, as
         1. Un-distort input image using `cv2.undistort()`
         1. For reference/verification, create a transform matrix and transform to common interior coordinates
         
-Example follow (calibration image #10). This example is particularly interesting due to the circular artifacts generated in the un-distorted image as a by-production of radial correction.
+Example follow (calibration image #10). This example is particularly interesting due to circular artifacts generated in the un-distorted image as a by-product of radial correction.
 
 Input:
 ![cal10_input]
