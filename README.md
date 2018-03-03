@@ -41,6 +41,8 @@ Project was developed using the following environment:
 [all_transformed]: media/all_transformed.png
 [cal1_input]: calibration_images/calibration1.jpg
 [process_py]: process.py
+[project_1]: process_output/test_videos/project_video.mp4
+[challenge_1]: process_output/challenge_videos/challenge_video.mp4
 [challenge_2]: challenge_videos/harder_challenge_video.mp4
 
 [straight1_input]: process_output/test_images/filter/by_name/straight_lines1/straight_lines1_input.png
@@ -142,27 +144,6 @@ Processing: project_video.mp4
 [...]
 ```
 
-The final challenge video ([harder_challenge_video.mp4][challenge_2]) proved unreadable by the chosen `VideoFileClip` API, as shown:
-```
-Processing: harder_challenge_video.mp4
-Traceback (most recent call last):
-  File "C:\Users\mcoyo\.IntelliJIdea2017.3\config\plugins\python\helpers\pydev\pydev_run_in_console.py", line 53, in run_file
-    pydev_imports.execfile(file, globals, locals)  # execute the script
-  File "C:\Users\mcoyo\.IntelliJIdea2017.3\config\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
-    exec(compile(contents+"\n", file, 'exec'), glob, loc)
-  File "E:/Projects/Work/Learning/CarND/CarND-Advanced-Lane-Lines/process.py", line 892, in <module>
-    execute_process()
-
-[...]
-
-OSError: [WinError 6] The handle is invalid
-Backend Qt4Agg is interactive backend. Turning interactive mode on.
-PyDev console: using IPython 6.2.1
-Python 3.5.4 | packaged by conda-forge | (default, Dec 18 2017, 06:53:03) [MSC v.1900 64 bit (AMD64)] on win32
-```
-
-This was not investigated further due to project time constraints.
-
 ---
 
 ## Rubric Points
@@ -198,7 +179,7 @@ Camera calibration is provided by the `process_camera_calibration` function, as 
         1. Un-distort input image using `cv2.undistort()`
         1. For reference/verification, create a transform matrix and transform to common interior coordinates
         
-Example follow (calibration image #10). This example is particularly interesting due to circular artifacts generated in the un-distorted image as a by-product of radial correction.
+Examples follow (calibration image #10). This example is particularly interesting due to circular artifacts generated in the un-distorted image as a by-product of radial correction.
 
 Input:
 
@@ -232,7 +213,7 @@ Calibration image #1 was unusuable, probably due to its outer edges being clippe
 
 ### 3. Pipeline (Test Images)
 
-Test image processing is provided by the `process_image_files` function, delegating to `process_video_frame`/other functions to ensure common code for still image/video frame processing.
+Test image processing is provided by the `process_image_files` function, delegating to `filter_street_image`, `fit_lane_lines` and other functions common to both image and video processing.
 
 #### 3.1. Provide an example of a distortion-corrected image.
 
@@ -253,9 +234,63 @@ Straight lines image #1 (un-distorted):
 
 _A method or combination of methods (i.e., color transforms, gradients) has been used to create a binary image containing likely lane pixels. There is no "ground truth" here, just visual verification that the pixels identified as part of the lane lines are, in fact, part of the lines. Example binary images should be included in the writeup (or saved to a folder) and submitted with the project._
 
-Image filter matrix:
+A filtering scheme was established as follows:
+1. Reflectance- (red/green/blue, hue/saturation/lightness) and gradient-based (x/y/magnitude/directional Sobel) filters were applied.
+1. Filters were individually refined for utility in _some subset_ of test images.
+1. Performance was documented in the matrix shown below (x = useful, ? = marginal, <blank> = not useful (or) degrading)
+1. Image/filter set groupings were identified, as shown:
+
+Gaussian blurring was applied to all gradient-based (Sobel) filters in an attempt to reduce noise pixels.
+
+Image filter matrix (colors = groups, highlights = best filters w/in group):
 
 ![image_filter_matrix]
+
+Summarized as follows:
+1. Straight #1, Straight #2 (straight, open lanes; asphalt)
+    1. Red, Green, Blue
+    1. Saturation, lightness (not shown in matrix)
+    1. X, magnitude, and directional Sobel
+1. Test #1 (curved, open lanes; concrete)
+    1. Red, Green, Blue
+    1. Saturation and lightness
+1. Test #2, Test #3 (curved open lanes; asphalt)
+    1. Red, Green, Blue
+    1. Saturation, lightness, hue
+    1. X, magnitude, and directional Sobel
+1. Test #4, Test #6 (curved, partly shaded lanes; asphalt/concrete transition)
+    1. Red, Green, Blue
+    1. Saturation
+1. Test #5 (curved, very shaded lanes; asphalt/concrete transition)
+    1. Red, Green, Blue
+    1. X and directional Sobel
+    
+At this point it was speculated sets of filters could be logically aligned with these groups (filters in a group &-ed, all groups |-ed). Attempts at implementation were limited by project time constraints, specifically due to:
+* Fine-tuning required for gradient-based filters in circumstances such as group #4 (above)
+* Deconflicting permutations of filters categorically common to multiple groups (e.g., red for all groups) but requiring different thresholds, Sobel filter kernels, etc. for exclusive subsets
+
+Instead, the following was implemented in the `filter_street_image` function to maximize best- and average-case performance:
+
+```python
+combined_bin_image[(np.sum([red_bin_image, grn_bin_image, blu_bin_image,
+                            sat_bin_image, hue_bin_image, lgt_bin_image,
+                            (x_bin_image | y_bin_image),
+                            (mag_bin_image | dir_bin_image)], axis=0) > 2)] = 1
+```  
+
+...with all reflectance-based filters summed with x/y and magnitude/directional Sobel filters, the latter two halved in significance to minimize their degrading effects (as configured) on outlier sections such as concrete overpasses. Once summed, only pixels with a score of 3 or greater would be forwarded for line detection/fitting.
+
+It is speculated picking suitable combinations of filters would be a good task for a neural network-driven pre-filtering strategy, as follows:
+1. Preemptively: 
+    1. Determine a fixed number of distinct, manageable variations of lane imagery (e.g., by lane curvature/position/surface, sun angle/cloud cover, fraction/density of shadow)
+    1. Manually establish general- to best-case filter combinations for each variation
+    1. Manually classify examples of each image variation according to these filter combinations 
+    1. Train/validate/test neural networks on these and more examples
+1. On board the vehicle:
+    1. Classify and apply filter combinations in order of confidence (e.g., top-N selections)
+    1. Rank and select results based on fitted lane line conformance with previous, near-term results
+
+The following examples show the breadth of filter results across multiple conditions. The "combined_binary" images represent results forwarded for lane detection/fitting.
 
 Straight lines image #1 (filtered):
 
@@ -277,6 +312,8 @@ Test image #5 (filtered):
 
 _OpenCV function or other method has been used to correctly rectify each image to a "birds-eye view". Transformed images should be included in the writeup (or saved to a folder) and submitted with the project._
 
+Perspective transformation was implemented in the `transform_street_image` function. This function computes or re-uses previously-computed to/from transformation matrices and applies them to input images.
+
 Straight lines image #1 (sharpened):
 
 ![straight1_sharpened]
@@ -288,6 +325,20 @@ Straight lines image #1 (transformed):
 #### 3.4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial.
 
 _Methods have been used to identify lane line pixels in the rectified binary image. The left and right line have been identified and fit with a curved functional form (e.g., spine or polynomial). Example images with line pixels identified and a fit overplotted should be included in the writeup (or saved to a folder) and submitted with the project._
+
+For image and video processing:
+* Principal lane line detection/fitting was implemented in the `fit_lane_lines` function based on a histogram-driven, sliding-window algorithm provided with project source material. 
+
+For video processing, specifically:
+* Adjustments to previously-established lane line fits was implemented in the `refit_lane_lines` function, based on a margin-expansion algorithm also provided with project source material.
+* Fitted lane lines are discarded whenever (a) there are usable, existing ones and (b) new ones cross the frame vertical center line. This was implemented in the `process_video_frame` function.
+* Fitted lane lines are averaged, frame-by-frame for 10 (configurable) frames. This was implemented in the `process_video_frame` function and `RunningMean` class. 
+
+The following input/output image pairs illustrate lane detection/fitting under different conditions, as follows:
+ * Red pixels: left lanes
+ * Blue pixels: right lanes
+ * Green boxes: detection windows
+ * Yellow lines: fitted results
 
 Straight lines image #1 (input):
 
@@ -325,9 +376,40 @@ Test image #5 (output):
 
 _Here the idea is to take the measurements of where the lane lines are and estimate how much the road is curving and where the vehicle is located with respect to the center of the lane. The radius of curvature may be given in meters assuming the curve of the road follows a circle. For the position of the vehicle, you may assume the camera is mounted at the center of the car and the deviation of the midpoint of the lane from the center of the image is the offset you're looking for. As with the polynomial fitting, convert from pixels to meters._
 
+Lane position estimation is implemented in the `get_center_diff_in_m` function and is based on project source material. Position estimation relies principally on input image dimensions and previously-established left and right lane fits. 
+
+```python
+def get_center_diff_in_m(input_image, left_fit, right_fit):
+    """Get distance from lane center in meters."""
+    width_in_px = input_image.shape[1]
+    height_in_px = input_image.shape[0]
+    bottom_left = get_curve_pixels(left_fit, height_in_px)
+    bottom_right = get_curve_pixels(right_fit, height_in_px)
+    lane_center = int(bottom_left + (bottom_right - bottom_left) / 2.0)
+    output_diff = int(width_in_px / 2.0) - lane_center
+    return output_diff
+```
+
+Lane curvature estimation is implemented in the `get_curve_radius_in_m` function and is based on project source material. Curvature estimation relies principally on generated lane line pixels.
+
+```python
+def get_curve_radius_in_m(curve_x_pixels, curve_y_pixels, meters_per_px):
+    """Get curve radius in meters from supplied x/y pixels."""
+    curve_scaled_pixels = np.polyfit(curve_y_pixels * meters_per_px[0], curve_x_pixels * meters_per_px[1], 2)
+    output_radius = ((1 + (2 * curve_scaled_pixels[0] * np.max(curve_y_pixels) * meters_per_px[0]
+                           + curve_scaled_pixels[1]) ** 2) ** 1.5) / np.absolute(2 * curve_scaled_pixels[0])
+    return output_radius
+```
+
+Both functions also rely on on estimated pixel/meter conversion ratios for X and Y axes, also based on project source material.
+
+Results of both functions should be averaged for best performance but were not in this implementation due to project time constraints.
+
 #### 3.6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
 _The fit from the rectified image has been warped back onto the original image and plotted to identify the lane boundaries. This should demonstrate that the lane boundaries were correctly identified. An example image with lanes, curvature, and position from center should be included in the writeup (or saved to a folder) and submitted with the project._
+
+This was not implemented for test image processing but was for video frames. 
 
 Project video frame #400 (result):
 
@@ -337,9 +419,36 @@ Project video frame #400 (result):
 
 ### 4. Pipeline (Video)
 
+Video processing is provided by the `process_video_files` function, delegating to `process_video_frame` (providing most of the video pipeline), then `filter_street_image`, `fit_lane_lines` and other functions common to both image and video processing.
+
 #### 4.1. Provide a link to your final video output. Your pipeline should perform reasonably well on the entire project video (...).
 
 _The image processing pipeline that was established to find the lane lines in images successfully processes the video. The output here should be a new video where the lanes are identified in every frame, and outputs are generated regarding the radius of curvature of the lane and vehicle position within the lane. The pipeline should correctly map out curved lines and not fail when shadows or pavement color changes are present. The output video should be linked to in the writeup and/or saved and submitted with the project._
+
+See [project_video.mp4][project_1] for final project video. This proved to be a successful application of this pipeline.
+
+See [challenge_video.mp4][challenge_1] for challenge video #1. This was not as successful as the project video but illuminating. Overall performance was poor due to filter configurations uncalibrated for heavy shadows across (mostly) the left lane line. 
+
+The final challenge video ([harder_challenge_video.mp4][challenge_2]) proved unreadable by the chosen `VideoFileClip` API, as shown:
+```
+Processing: harder_challenge_video.mp4
+Traceback (most recent call last):
+  File "C:\Users\mcoyo\.IntelliJIdea2017.3\config\plugins\python\helpers\pydev\pydev_run_in_console.py", line 53, in run_file
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "C:\Users\mcoyo\.IntelliJIdea2017.3\config\plugins\python\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "E:/Projects/Work/Learning/CarND/CarND-Advanced-Lane-Lines/process.py", line 892, in <module>
+    execute_process()
+
+[...]
+
+OSError: [WinError 6] The handle is invalid
+Backend Qt4Agg is interactive backend. Turning interactive mode on.
+PyDev console: using IPython 6.2.1
+Python 3.5.4 | packaged by conda-forge | (default, Dec 18 2017, 06:53:03) [MSC v.1900 64 bit (AMD64)] on win32
+```
+
+This was not investigated further due to project time constraints.
 
 ---
 
@@ -348,3 +457,7 @@ _The image processing pipeline that was established to find the lane lines in im
 #### 5.1. Briefly discuss any problems / issues you faced in your implementation of this project (...).
 
 _Discussion includes some consideration of problems/issues faced, what could be improved about their algorithm/pipeline, and what hypothetical cases would cause their pipeline to fail._
+
+As discussed above, the principal challenge (as approached) was filter selection and configuration. 
+
+Application of additional filter variations/types, convolutions, and other techniques all offer potential improvements for this capability. 
